@@ -28,7 +28,7 @@ This project is a Rust-based proxy server leveraging the **Pingora** framework. 
 ---
 
 ## **Project Structure**
-
+```
 . ├── src 
   │ ├── main.rs # Entry point of the application 
   │ ├── router # Router logic 
@@ -38,7 +38,7 @@ This project is a Rust-based proxy server leveraging the **Pingora** framework. 
   │ │ ├── dynamic_api.rs # REST API for managing upstreams 
   │ ├── utils # Utility functions 
   │ ├── logging.rs # Logging utilities for upstream counts ├── Cargo.toml # Rust dependencies and configuration ├── README.md # Project documentation
-
+```
 
 
 
